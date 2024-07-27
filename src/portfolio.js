@@ -329,19 +329,22 @@ const blogSection = {
   displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [
     {
-      url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
-      title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
+      url: "https://dev.to/uzair004/bike-shedding-triviality-in-software-development-3g0l",
+      title: "Bike shedding Triviality in software development",
       description:
-        "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
+        "How does software development gets effected by bike shedding effect? How do teams give disproportionate weight to trivial issues of a larger or more complex project. "
     },
     {
-      url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
-      title: "Why REACT is The Best?",
+      url: "https://dev.to/uzair004/solve-problem-of-api-responds-with-401-error-4i8",
+      title: "Solve problem of API responds with 401 error",
       description:
-        "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
+        "How to solve common issue of integrating third party APIs that responds with 401 error? In this example we'd use the weather api to debug & fix the bug."
+
+      // description:
+      // "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
     }
   ],
-  display: false // Set false to hide this section, defaults to true
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
