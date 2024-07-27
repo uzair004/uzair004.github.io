@@ -219,25 +219,39 @@ const bigProjects = {
   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/meraid_logo.png"),
+      projectName: "meraID",
+      projectDesc:
+        "Pakistan's first digital identity & passwordless authentication & digital signature paltform.",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://saayahealth.com/"
+          url: "https://meraid.pk/"
         }
         //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/lettus_logo.jpg"),
+      projectName: "Leetus Kitchens",
+      projectDesc:
+        "Supply chain & inventory management app for cloud kitchens.",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://nextu.se/"
+          url: "https://order.lettuskitchens.com/"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/monstor_pool_logo.webp"),
+      projectName: "Monstor Pool",
+      projectDesc:
+        "The Monster Pool app is an interest-free peer-to-peer lending platform that allows users to collect and lend money to people they trust.",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://www.monsterspool.com/"
         }
       ]
     }
