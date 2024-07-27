@@ -215,7 +215,7 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Projects",
+  title: "Startups Projects",
   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
     {
@@ -233,7 +233,7 @@ const bigProjects = {
     },
     {
       image: require("./assets/images/lettus_logo.jpg"),
-      projectName: "Leetus Kitchens",
+      projectName: "Lettus Kitchens",
       projectDesc:
         "Supply chain & inventory management app for cloud kitchens.",
       footerLink: [
