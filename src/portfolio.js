@@ -23,7 +23,7 @@ const greeting = {
   username: "Muhammad Uzair",
   title: "Hi all, I'm Uzair",
   subTitle: emoji(
-    "A passionate Backend Software Developer 🚀 with expertise in serverless computing, AWS, Node.js, and microservices."
+    "A passionate Backend Software Developer 🚀 with expertise in serverless computing, AWS, Node.js, and event driven system."
   ),
   resumeLink:
     "https://drive.google.com/file/d/1hdiPxOu2Js_W8Z9IFCWvf2_4-OGqFGQM/view?usp=sharing", // Set to empty to hide the button
@@ -47,14 +47,12 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  // subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
   skills: [
+    emoji("⚡ Develop highly scalable services & products"),
+    emoji("⚡ Deploying & maintaining applications to cloud services"),
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
-    ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
-    emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      "⚡ Integration of third party services & automation of existing processes"
     )
   ],
 
@@ -71,28 +69,12 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-css3-alt"
     },
     {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
-    },
-    {
       skillName: "JavaScript",
       fontAwesomeClassname: "fab fa-js"
     },
     {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
-    },
-    {
       skillName: "nodejs",
       fontAwesomeClassname: "fab fa-node"
-    },
-    {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
-    {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
     },
     {
       skillName: "sql-database",
@@ -113,6 +95,26 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "docker",
       fontAwesomeClassname: "fab fa-docker"
+    },
+    {
+      skillName: "git",
+      fontAwesomeClassname: "fab fa-git"
+    },
+    {
+      skillName: "no-sql database",
+      fontAwesomeClassname: "fas fa-database"
+    },
+    {
+      skillName: "web-automation",
+      fontAwesomeClassname: "fas fa-robot"
+    },
+    {
+      skillName: "Distributed database",
+      fontAwesomeClassname: "fas fa-database"
+    },
+    {
+      skillName: "Serverless",
+      fontAwesomeClassname: "fas fa-server"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -124,23 +126,15 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
-    },
-    {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
+      schoolName: "Peshawar University",
+      logo: require("./assets/images/uop-logo.png"),
       subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      duration: "2017 - 2021",
+      desc: "CGPA 3.7"
+      // descBullets: [
+      //   "Learned & practiced computer science & software engineering fundamentals",
+      //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+      // ]
     }
   ]
 };
@@ -172,29 +166,40 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "Backend Engineer",
+      company: "Productbox",
+      companylogo: require("./assets/images/productbox_logo.jpeg"),
+      date: "Nov 2021 – Present",
+      desc: "As a Software Engineer at Productbox, I created, maintained & contributed to multiple products.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Pakistan's first digital identity service for passwordless authentication and digital signature",
+        "Created supply chain products for cloud kitchens",
+        "Job Posting & Application processing protal",
+        "Web automation & OCR tools"
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Freelance Backend Developer",
+      // company: "Quora",
+      companylogo: require("./assets/images/lovie_logo.jpg"),
+      date: "Aug 2021 – Oct 2021",
+      desc: "Built an e-commerce marketplace for handmade products.",
+      descBullets: [
+        "Built a scalable e-commerce marketplace for handmade products",
+        "Worked with Node.js, and MongoDB"
+      ]
     },
     {
       role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      company: "Productbox",
+      companylogo: require("./assets/images/productbox_logo.jpeg"),
+      date: "Oct 2021 – Nov 2021",
+      desc: "Contributed to fintech application with various features.",
+      descBullets: [
+        "Maintained & fixed bugs in exiting system",
+        "Introduced new features for end users",
+        "Improved code quality by writting tests"
+      ]
     }
   ]
 };
