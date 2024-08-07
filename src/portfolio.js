@@ -190,10 +190,10 @@ const workExperiences = {
       ]
     },
     {
-      role: "Software Engineer Intern",
+      role: "Junior Backend Engineer",
       company: "Productbox",
       companylogo: require("./assets/images/productbox_logo.jpeg"),
-      date: "Oct 2021 – Nov 2021",
+      date: "June 2021 – Oct 2022",
       desc: "Contributed to fintech application with various features.",
       descBullets: [
         "Maintained & fixed bugs in exiting system",
