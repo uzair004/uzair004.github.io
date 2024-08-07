@@ -1,1 +1,1 @@
-# Visit my [Portfolio](github.io/uzair004)
+# Visit my [Portfolio](uzair004.github.io/)
