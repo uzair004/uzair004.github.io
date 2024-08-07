@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/static/css/main.2dbe8ad0.css",
-    "main.js": "/static/js/main.9664eba1.js",
+    "main.js": "/static/js/main.1c91bd7e.js",
     "static/css/64.bba8fa55.chunk.css": "/static/css/64.bba8fa55.chunk.css",
     "static/js/64.56dc6704.chunk.js": "/static/js/64.56dc6704.chunk.js",
     "static/css/769.b3cbb36b.chunk.css": "/static/css/769.b3cbb36b.chunk.css",
     "static/js/769.bda0d7b7.chunk.js": "/static/js/769.bda0d7b7.chunk.js",
     "static/media/Montserrat-Regular.ttf": "/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
     "static/media/Agustina.woff": "/static/media/Agustina.eb0c59dda4cc308cba96.woff",
-    "static/media/resume.pdf": "/static/media/resume.be4832efe334c0fc3a2a.pdf",
+    "static/media/resume.pdf": "/static/media/resume.66eb0eb11db4ba5eda0f.pdf",
     "static/media/manOnTable.svg": "/static/media/manOnTable.8f117eb207e57ed8f89d67d595aceb45.svg",
     "static/media/uop-logo.png": "/static/media/uop-logo.05e6d156c78af2d7c6a7.png",
     "static/media/contactMailDark.svg": "/static/media/contactMailDark.1db650d351729a0f17b4e3104e6a7b7a.svg",
@@ -23,7 +23,7 @@
     "index.html": "/index.html",
     "static/media/talksCardBack.svg": "/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
     "main.2dbe8ad0.css.map": "/static/css/main.2dbe8ad0.css.map",
-    "main.9664eba1.js.map": "/static/js/main.9664eba1.js.map",
+    "main.1c91bd7e.js.map": "/static/js/main.1c91bd7e.js.map",
     "64.bba8fa55.chunk.css.map": "/static/css/64.bba8fa55.chunk.css.map",
     "64.56dc6704.chunk.js.map": "/static/js/64.56dc6704.chunk.js.map",
     "769.b3cbb36b.chunk.css.map": "/static/css/769.b3cbb36b.chunk.css.map",
@@ -31,6 +31,6 @@
   },
   "entrypoints": [
     "static/css/main.2dbe8ad0.css",
-    "static/js/main.9664eba1.js"
+    "static/js/main.1c91bd7e.js"
   ]
 }
