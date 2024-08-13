@@ -169,24 +169,13 @@ const workExperiences = {
       role: "Backend Engineer",
       company: "Productbox",
       companylogo: require("./assets/images/productbox_logo.jpeg"),
-      date: "Nov 2021 – Present",
+      date: "Oct 2021 – Present",
       desc: "As a Software Engineer at Productbox, I created, maintained & contributed to multiple products.",
       descBullets: [
         "Pakistan's first digital identity service for passwordless authentication and digital signature",
         "Created supply chain products for cloud kitchens",
         "Job Posting & Application processing protal",
         "Web automation & OCR tools"
-      ]
-    },
-    {
-      role: "Freelance Backend Developer",
-      // company: "Quora",
-      companylogo: require("./assets/images/lovie_logo.jpg"),
-      date: "Aug 2021 – Oct 2021",
-      desc: "Built an e-commerce marketplace for handmade products.",
-      descBullets: [
-        "Built a scalable e-commerce marketplace for handmade products",
-        "Worked with Node.js, and MongoDB"
       ]
     },
     {
@@ -199,6 +188,17 @@ const workExperiences = {
         "Maintained & fixed bugs in exiting system",
         "Introduced new features for end users",
         "Improved code quality by writting tests"
+      ]
+    },
+    {
+      role: "Freelance Backend Developer",
+      // company: "Quora",
+      companylogo: require("./assets/images/lovie_logo.jpg"),
+      date: "Mar 2021 – June 2021",
+      desc: "Built an e-commerce marketplace for handmade products.",
+      descBullets: [
+        "Built a scalable e-commerce marketplace for handmade products",
+        "Worked with Node.js, Mongoose and MongoDB"
       ]
     }
   ]
