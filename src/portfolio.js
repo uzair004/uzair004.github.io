@@ -26,7 +26,7 @@ const greeting = {
     "A passionate Backend Software Developer 🚀 with expertise in serverless computing, AWS, Node.js, and event driven system."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1hdiPxOu2Js_W8Z9IFCWvf2_4-OGqFGQM/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1myxe4__0M9l4ZESsINxvqywkHqEmiE4e/view?usp=drive_link", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
