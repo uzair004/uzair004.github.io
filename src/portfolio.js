@@ -181,8 +181,8 @@ const workExperiences = {
       date: "Dec 2024 – Present",
       desc: "As a Senior Backend Engineer at DigiStaff, I am responsible for designing and implementing scalable backend systems, ensuring high availability and performance.",
       descBullets: [
-        "Implement AI-driven solutions to automate processes and improve decision-making capabilities i.e AI based resume processing and resource finding",
-        "Lead initiatives to streamline internal processes, resulting in improved team productivity and reduced operational bottlenecks. digistaff.ca Mentor and train junior developers, fostering skill development and promoting best practices within the team"
+        "Implement AI-driven solutions to automate workflows and enhance decision-making, such as AI-powered resume screening and resource matching.",
+        "Lead process improvement initiatives to boost productivity and eliminate bottlenecks. Mentor junior developers, promoting skill growth and best practices."
       ]
     },
     {
