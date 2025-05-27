@@ -234,10 +234,11 @@ const bigProjects = {
     {
       image: require("./assets/images/digistaff_logo.png"),
       projectName: "DigiStaff",
-      projectDesc: "Digistaff is a modern staffing platform designed to simplify and optimize the hiring process. It features AI-powered resource matching, automated resume processing, strict hardware-based access control, along with scheduling, time tracking, applicant and client management, payroll, analytics, and more.",
+      projectDesc:
+        "Digistaff is a modern staffing platform designed to simplify and optimize the hiring process. It features AI-powered resource matching, automated resume processing, strict hardware-based access control, along with scheduling, time tracking, applicant and client management, payroll, analytics, and more.",
       footerLink: [
         {
-          name: 'Visit Website',
+          name: "Visit Website",
           url: "https://digistaff.ca"
         }
       ]
