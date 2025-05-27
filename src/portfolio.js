@@ -23,7 +23,7 @@ const greeting = {
   username: "Muhammad Uzair",
   title: "Hi all, I'm Uzair",
   subTitle: emoji(
-    "A passionate Backend Software Developer 🚀 with expertise in serverless computing, AWS, Node.js, and event driven system."
+    "A passionate Backend Software Developer 🚀 with expertise in Serverless computing, AWS, Node.js, and Event Driven System."
   ),
   resumeLink:
     "https://drive.google.com/file/d/1myxe4__0M9l4ZESsINxvqywkHqEmiE4e/view?usp=drive_link", // Set to empty to hide the button
@@ -148,25 +148,6 @@ https://fontawesome.com/icons?d=gallery */
   display: true // Set false to hide this section, defaults to true
 };
 
-// Education Section
-
-const educationInfo = {
-  display: true, // Set false to hide this section, defaults to true
-  schools: [
-    {
-      schoolName: "Peshawar University",
-      logo: require("./assets/images/uop-logo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "2017 - 2021",
-      desc: "CGPA 3.7"
-      // descBullets: [
-      //   "Learned & practiced computer science & software engineering fundamentals",
-      //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      // ]
-    }
-  ]
-};
-
 // Your top 3 proficient stacks/tech experience
 
 const techStack = {
@@ -196,7 +177,7 @@ const workExperiences = {
     {
       role: "Senior Backend Engineer",
       company: "DigiStaff Inc",
-      companylogo: require("./assets/images/digistaff_inc_logo.png"),
+      companylogo: require("./assets/images/digistaff_inc_logo.jpeg"),
       date: "Dec 2024 – Present",
       desc: "As a Senior Backend Engineer at DigiStaff, I am responsible for designing and implementing scalable backend systems, ensuring high availability and performance.",
       descBullets: [
@@ -259,7 +240,7 @@ const bigProjects = {
   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
     {
-      image: require("./assets/images/digistaff_inc_logo.png"),
+      image: require("./assets/images/digistaff_inc_logo.jpeg"),
       projectName: "DigiStaff",
       projectDesc:
         "Digistaff is a modern staffing platform designed to simplify and optimize the hiring process. It features AI-powered resource matching, automated resume processing, strict hardware-based access control, along with scheduling, time tracking, applicant and client management, payroll, analytics, and more.",
@@ -438,6 +419,25 @@ const resumeSection = {
 
   // Please Provide with Your Podcast embeded Link
   display: true // Set false to hide this section, defaults to true
+};
+
+// Education Section
+
+const educationInfo = {
+  display: true, // Set false to hide this section, defaults to true
+  schools: [
+    {
+      schoolName: "Peshawar University",
+      logo: require("./assets/images/uop-logo.png"),
+      subHeader: "Bachelor of Science in Computer Science",
+      duration: "2017 - 2021",
+      desc: "CGPA 3.7"
+      // descBullets: [
+      //   "Learned & practiced computer science & software engineering fundamentals",
+      //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+      // ]
+    }
+  ]
 };
 
 const contactInfo = {
