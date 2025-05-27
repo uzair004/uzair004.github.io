@@ -122,7 +122,7 @@ https://fontawesome.com/icons?d=gallery */
     },
     {
       skillName: "typescript",
-      fontAwesomeClassname: "fab fa-js-square"
+      fontAwesomeClassname: "fa-solid fa-code"
     },
     {
       skillName: "mongodb",
@@ -130,7 +130,7 @@ https://fontawesome.com/icons?d=gallery */
     },
     {
       skillName: "nestjs",
-      fontAwesomeClassname: "fab fa-nestjs"
+      fontAwesomeClassname: "fa-solid fa-n"
     },
     {
       skillName: "expressjs",
@@ -138,7 +138,7 @@ https://fontawesome.com/icons?d=gallery */
     },
     {
       skillName: "graphql",
-      fontAwesomeClassname: "fab fa-graphql"
+      fontAwesomeClassname: "fa-solid fa-hexagon-nodes"
     },
     {
       skillName: "microservices",
