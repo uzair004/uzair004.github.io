@@ -219,6 +219,17 @@ const bigProjects = {
   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
     {
+      image: require("./assets/images/digistaff_logo.png"),
+      projectName: "DigiStaff",
+      projectDesc: "Digistaff is a modern staffing platform designed to simplify and optimize the hiring process. It features AI-powered resource matching, automated resume processing, strict hardware-based access control, along with scheduling, time tracking, applicant and client management, payroll, analytics, and more.",
+      footerLink: [
+        {
+          name: 'Visit Website',
+          url: "https://digistaff.ca"
+        }
+      ]
+    },
+    {
       image: require("./assets/images/meraid_logo.png"),
       projectName: "meraID",
       projectDesc:
