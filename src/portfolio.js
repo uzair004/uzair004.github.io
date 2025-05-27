@@ -115,7 +115,35 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "Serverless",
       fontAwesomeClassname: "fas fa-server"
-    }
+    },
+    {
+      skillName: "event-driven",
+      fontAwesomeClassname: "fas fa-bolt"
+    },
+    {
+      skillName: "typescript",
+      fontAwesomeClassname: "fab fa-js-square"
+    },
+    {
+      skillName: "mongodb",
+      fontAwesomeClassname: "fas fa-database"
+    },
+    {
+      skillName: "nestjs",
+      fontAwesomeClassname: "fab fa-nestjs"
+    },
+    {
+      skillName: "expressjs",
+      fontAwesomeClassname: "fas fa-server"
+    },
+    {
+      skillName: "graphql",
+      fontAwesomeClassname: "fab fa-graphql"
+    },
+    {
+      skillName: "microservices",
+      fontAwesomeClassname: "fas fa-microchip"
+    },
   ],
   display: true // Set false to hide this section, defaults to true
 };
