@@ -143,7 +143,7 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "microservices",
       fontAwesomeClassname: "fas fa-microchip"
-    },
+    }
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -362,12 +362,15 @@ const blogSection = {
   blogs: [
     {
       url: "https://dev.to/uzair004/aurora-v1-to-v2-migrating-via-snapshot-and-restore-a-step-by-step-guide-5c02",
-      title: "Aurora v1 to v2 Migrating via Snapshot and Restore: A Step-by-Step Guide",
-      description: "Step by step guideline to migrate from Aurora v1 to v2 using snapshot and restore method. This guide will help you to migrate your database with minimal downtime and data loss."
+      title:
+        "Aurora v1 to v2 Migrating via Snapshot and Restore: A Step-by-Step Guide",
+      description:
+        "Step by step guideline to migrate from Aurora v1 to v2 using snapshot and restore method. This guide will help you to migrate your database with minimal downtime and data loss."
     },
     {
       url: "https://dev.to/uzair004/aurora-serverless-v2-vs-v1-a-concise-comparison-of-key-differences-2103",
-      title: "Aurora Serverless v2 vs v1: A Concise Comparison of Key Differences",
+      title:
+        "Aurora Serverless v2 vs v1: A Concise Comparison of Key Differences",
       description:
         "A concise comparison of key differences between Aurora Serverless v2 and v1. This article will help you to understand the differences and choose the right version for your application."
     },
