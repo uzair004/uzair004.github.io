@@ -196,11 +196,10 @@ const workExperiences = {
     {
       role: "Senior Backend Engineer",
       company: "DigiStaff Inc",
-      companylogo: require("./assets/images/digistaff_logo.png"),
+      companylogo: require("./assets/images/digistaff_inc_logo.png"),
       date: "Dec 2024 – Present",
       desc: "As a Senior Backend Engineer at DigiStaff, I am responsible for designing and implementing scalable backend systems, ensuring high availability and performance.",
       descBullets: [
-        "Manage a modern staffing platform designed to simplify and optimize the hiring process. It features AI-powered resource matching, automated resume processing, strict hardware-based access control, along with scheduling, time tracking, applicant and client management, payroll, analytics, and more.",
         "Implement AI-driven solutions to automate processes and improve decision-making capabilities i.e AI based resume processing and resource finding",
         "Develop and enforce strict hardware-based access control measures, ensuring robust data security and compliance",
         "Lead initiatives to streamline internal processes, resulting in improved team productivity and reduced operational bottlenecks. digistaff.ca Mentor and train junior developers, fostering skill development and promoting best practices within the team"
@@ -260,7 +259,7 @@ const bigProjects = {
   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
     {
-      image: require("./assets/images/digistaff_logo.png"),
+      image: require("./assets/images/digistaff_inc_logo.png"),
       projectName: "DigiStaff",
       projectDesc:
         "Digistaff is a modern staffing platform designed to simplify and optimize the hiring process. It features AI-powered resource matching, automated resume processing, strict hardware-based access control, along with scheduling, time tracking, applicant and client management, payroll, analytics, and more.",
