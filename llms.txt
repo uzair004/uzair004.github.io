@@ -1,0 +1,31 @@
+# Muhammad Uzair
+
+> I build the backend and the AI layer of products that handle real money, real identities and real health data: Pakistan's first passwordless digital identity platform, a multi-tenant workforce platform serving 15 organisations and nearly 30,000 people, and two AI-powered health products live in the US App Store. TypeScript and Node.js on AWS, serverless and event-driven by default. LLM applications with grounding, guardrails and evals that hold up in production. I design the cloud architecture, run what I ship, and treat the bill as an engineering input.
+
+Senior Software Engineer. Backend systems and production AI on AWS.
+
+## Pages
+
+- [Portfolio](https://uzair004.github.io/): the work, the figures and the systems behind them.
+- [CV in plain markdown](https://uzair004.github.io/cv.md): the whole page as text, no rendering needed.
+
+## Open source
+
+- [pennyllm-router](https://github.com/uzair004/pennyllm-router): A TypeScript router between application code and LLM providers: an ordered model chain with two-tier failover (rotate keys within a provider, then move to the next), provider-error classification that never leaks a vendor SDK's error type, per-key cooldowns with exponential backoff, and a rolling-window circuit breaker with half-open recovery.
+- [candidate-finder-ai](https://github.com/uzair004/candidate-finder-ai): Résumé ingestion and semantic candidate search on AWS: a five-stage Step Functions pipeline fed by SQS through EventBridge Pipes, hybrid BM25 plus vector search in Weaviate joined back to Postgres, behind an AppSync GraphQL API.
+- [event-driven-serverless-app](https://github.com/uzair004/event-driven-serverless-app): Reference event-driven backend on AWS: Lambda behind API Gateway, DynamoDB, SQS, Serverless Framework and GitHub Actions, in clean architecture so the logic tests without the cloud.
+- [missing-person-finder](https://github.com/uzair004/missing-person-finder): Matches an uploaded photo against stored face embeddings, running face recognition server-side in Node (TensorFlow.js with MediaPipe models), 1024-dimension embeddings at a 0.55 similarity threshold.
+- [nest-sse-example](https://github.com/uzair004/nest-sse-example): Server-sent events in NestJS from an RxJS observable, the primitive the streaming work at Augi later relied on.
+- [node-clean-boilerplate](https://github.com/uzair004/node-clean-boilerplate): Node.js starting point on clean architecture and domain-driven design.
+
+## Writing
+
+- [Aurora Serverless v2 vs. v1: a concise comparison of key differences](https://dev.to/uzair004/aurora-serverless-v2-vs-v1-a-concise-comparison-of-key-differences-2103): Feb 2025.
+- [Migrate Aurora v1: strategies explained](https://dev.to/uzair004/migrate-aurora-v1-strategies-explained-3e7d): Mar 2025.
+- [Aurora v1 to v2, migrating via snapshot and restore: a step-by-step guide](https://dev.to/uzair004/aurora-v1-to-v2-migrating-via-snapshot-and-restore-a-step-by-step-guide-5c02): Mar 2025.
+
+## Elsewhere
+
+- [GitHub](https://github.com/uzair004)
+- [LinkedIn](https://www.linkedin.com/in/uzair004)
+- Email: uzairkhattak004@gmail.com
