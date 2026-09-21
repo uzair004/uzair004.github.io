@@ -4,7 +4,7 @@ window.PORTFOLIO = {
   "name": "Muhammad Uzair",
   "position": "Senior Software Engineer. Backend systems and production AI on AWS.",
   "intro": [
-    "I build the backend and the AI layer of products that handle real money, real identities and real health data: Pakistan's first passwordless digital identity platform, a multi-tenant workforce platform serving 15 organisations and nearly 30,000 people, and two AI-powered health products live in the US App Store.",
+    "I build the backend and the AI layer of products that handle real money, real identities and real health data: Pakistan's first passwordless digital identity platform, a multi-tenant workforce platform serving up to 15 organisations and nearly 30,000 people, and two AI-powered health products live in the US App Store.",
     "TypeScript and Node.js on AWS, serverless and event-driven by default. LLM applications with grounding, guardrails and evals that hold up in production. I design the cloud architecture, run what I ship, and treat the bill as an engineering input."
   ],
   "glance": [
@@ -36,11 +36,11 @@ window.PORTFOLIO = {
     },
     {
       "value": "2",
-      "label": "AI-powered health products live in the US App Store, AI layer built by me"
+      "label": "AI-powered health products live in the US App Store"
     },
     {
       "value": "30,000",
-      "label": "people on a B2B workforce platform across 15 client organisations, backend led by me"
+      "label": "people on a B2B workforce platform serving up to 15 client organisations"
     }
   ],
   "heroDiagram": {
@@ -157,7 +157,7 @@ window.PORTFOLIO = {
         },
         {
           "value": "5",
-          "label": "partner services running on it: a university, an online shop, a hiring product"
+          "label": "partner services, including a university, an online shop and a hiring product"
         },
         {
           "value": "9 s to 1 s",
@@ -254,7 +254,7 @@ window.PORTFOLIO = {
       "org": "DigiStaff",
       "dates": "Nov 2024 to Sep 2025",
       "place": "Canada, remote",
-      "tagline": "Multi-tenant workforce platform for temporary staffing in Canada: scheduling, worker check-in, payroll and billing for 15 client organisations.",
+      "tagline": "Multi-tenant workforce platform for temporary staffing in Canada: scheduling, worker check-in, payroll and billing for up to 15 client organisations.",
       "figures": [
         {
           "value": "15k to 30k",
@@ -514,10 +514,6 @@ window.PORTFOLIO = {
         {
           "value": "6",
           "label": "LLM features on one shared provider layer"
-        },
-        {
-          "value": "2",
-          "label": "LLM providers behind one abstraction, swappable in one place"
         }
       ],
       "points": [
@@ -623,7 +619,7 @@ window.PORTFOLIO = {
       "tagline": "AI phone receptionist for service businesses: a voice agent answers the call and books the job into the company's CRM, or hands over to a person.",
       "figures": [],
       "points": [
-        "Built the CRM integration that turns a finished call into a booked job: a typed service that maps vendor failures to clear domain errors, retries with backoff, validates its configuration at startup and keeps credentials out of logs.",
+        "Every finished call becomes a booked job in the customer's CRM with nobody re-keying it: a typed integration that surfaces vendor failures as clear errors, retries with backoff and keeps credentials out of logs.",
         "Twilio carries the call, Retell runs speech, the product owns the LLM conversation with tool calling; fixed a production defect in the call-transfer path."
       ],
       "built": "Built the CRM integration service.",
@@ -712,7 +708,7 @@ window.PORTFOLIO = {
       "points": [
         "Payments end to end on Stripe: wallets, payouts, transactions, commission and accounting, with webhook handling that keeps every balance right.",
         "Live sessions on Agora with real-time updates over Socket.IO and Redis; background work on BullMQ with a dedicated session worker.",
-        "Production-ready from the first release: Docker for dev and prod, GitHub Actions, Prisma migrations, presigned S3 uploads, and most of the React admin dashboard."
+        "Shipped with CI, database migrations and a deploy path the client runs without me, plus most of the React admin dashboard."
       ],
       "built": "Built and ran the backend for a freelance client: Express on PostgreSQL with Prisma, Redis, S3.",
       "stack": [

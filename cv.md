@@ -2,7 +2,7 @@
 
 Senior Software Engineer. Backend systems and production AI on AWS.
 
-I build the backend and the AI layer of products that handle real money, real identities and real health data: Pakistan's first passwordless digital identity platform, a multi-tenant workforce platform serving 15 organisations and nearly 30,000 people, and two AI-powered health products live in the US App Store.
+I build the backend and the AI layer of products that handle real money, real identities and real health data: Pakistan's first passwordless digital identity platform, a multi-tenant workforce platform serving up to 15 organisations and nearly 30,000 people, and two AI-powered health products live in the US App Store.
 
 TypeScript and Node.js on AWS, serverless and event-driven by default. LLM applications with grounding, guardrails and evals that hold up in production. I design the cloud architecture, run what I ship, and treat the bill as an engineering input.
 
@@ -15,8 +15,8 @@ TypeScript and Node.js on AWS, serverless and event-driven by default. LLM appli
 - **Open to:** Senior Software Engineer, Backend Engineer and AI Engineer roles at remote product companies in the EU, UK and US; relocation possible
 
 - **$40k+ / yr** cloud and vendor spend cut or avoided across two platforms
-- **2** AI-powered health products live in the US App Store, AI layer built by me
-- **30,000** people on a B2B workforce platform across 15 client organisations, backend led by me
+- **2** AI-powered health products live in the US App Store
+- **30,000** people on a B2B workforce platform serving up to 15 client organisations
 
 ## Work
 
@@ -27,7 +27,7 @@ TypeScript and Node.js on AWS, serverless and event-driven by default. LLM appli
 Pakistan's first passwordless digital identity platform, in the category of Sweden's BankID: one verified identity to sign in, authorise transactions and sign documents across partner services.
 
 - **~10,000** identity verifications processed
-- **5** partner services running on it: a university, an online shop, a hiring product
+- **5** partner services, including a university, an online shop and a hiring product
 - **9 s to 1 s** API response time on live traffic
 
 - Replaced passwords with a device-bound identity: partner services authenticate people, approve transactions and collect signatures through one integration, and the signing key never leaves the person's phone.
@@ -43,7 +43,7 @@ Pakistan's first passwordless digital identity platform, in the category of Swed
 
 *DigiStaff, Nov 2024 to Sep 2025, Canada, remote*
 
-Multi-tenant workforce platform for temporary staffing in Canada: scheduling, worker check-in, payroll and billing for 15 client organisations.
+Multi-tenant workforce platform for temporary staffing in Canada: scheduling, worker check-in, payroll and billing for up to 15 client organisations.
 
 - **15k to 30k** users, and client organisations from 5 to 15
 - **45%** off the AWS bill, about $23k a year
@@ -85,7 +85,6 @@ AI-first care companion for parents of newly diagnosed autistic children, with a
 
 - **10 s** to log an observation by voice, down from minutes of typing
 - **6** LLM features on one shared provider layer
-- **2** LLM providers behind one abstraction, swappable in one place
 
 - Parents speak; the app turns it into plain-language records, next steps and a weekly recap, and their doctor sees a structured view of the child between appointments.
 - Grounded clinician chat that cites the child's own records and peer-reviewed literature, with prompt-injection and scope guardrails and rate limiting: an answer a doctor can rely on inside a fifteen-minute appointment.
@@ -102,7 +101,7 @@ AI-first care companion for parents of newly diagnosed autistic children, with a
 
 AI phone receptionist for service businesses: a voice agent answers the call and books the job into the company's CRM, or hands over to a person.
 
-- Built the CRM integration that turns a finished call into a booked job: a typed service that maps vendor failures to clear domain errors, retries with backoff, validates its configuration at startup and keeps credentials out of logs.
+- Every finished call becomes a booked job in the customer's CRM with nobody re-keying it: a typed integration that surfaces vendor failures as clear errors, retries with backoff and keeps credentials out of logs.
 - Twilio carries the call, Retell runs speech, the product owns the LLM conversation with tool calling; fixed a production defect in the call-transfer path.
 
 **My part.** Built the CRM integration service.
@@ -117,7 +116,7 @@ Marketplace for live video wellness sessions: clients book practitioners, sessio
 
 - Payments end to end on Stripe: wallets, payouts, transactions, commission and accounting, with webhook handling that keeps every balance right.
 - Live sessions on Agora with real-time updates over Socket.IO and Redis; background work on BullMQ with a dedicated session worker.
-- Production-ready from the first release: Docker for dev and prod, GitHub Actions, Prisma migrations, presigned S3 uploads, and most of the React admin dashboard.
+- Shipped with CI, database migrations and a deploy path the client runs without me, plus most of the React admin dashboard.
 
 **My part.** Built and ran the backend for a freelance client: Express on PostgreSQL with Prisma, Redis, S3.
 
