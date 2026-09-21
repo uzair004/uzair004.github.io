@@ -1,6 +1,6 @@
 # Muhammad Uzair
 
-> I build the backend and the AI layer of products that handle real money, real identities and real health data: Pakistan's first passwordless digital identity platform, a multi-tenant workforce platform serving up to 15 organisations and nearly 30,000 people, and two AI-powered health products live in the US App Store. TypeScript and Node.js on AWS, serverless and event-driven by default. LLM applications with grounding, guardrails and evals that hold up in production. I design the cloud architecture, run what I ship, and treat the bill as an engineering input.
+> I build the backend and the AI layer of products that handle real money, real identities and real health data: Pakistan's first passwordless digital identity platform, a multi-tenant workforce platform serving up to 15 organisations and nearly 30,000 people, and two AI-powered health products live in the US App Store. TypeScript and Node.js on AWS, serverless and event-driven by default. LLM applications with grounding, guardrails and evals that hold up in production. I design the cloud architecture, run what I ship, and keep the cloud bill in check.
 
 Senior Software Engineer. Backend systems and production AI on AWS.
 

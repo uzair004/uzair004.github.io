@@ -5,7 +5,7 @@ window.PORTFOLIO = {
   "position": "Senior Software Engineer. Backend systems and production AI on AWS.",
   "intro": [
     "I build the backend and the AI layer of products that handle real money, real identities and real health data: Pakistan's first passwordless digital identity platform, a multi-tenant workforce platform serving up to 15 organisations and nearly 30,000 people, and two AI-powered health products live in the US App Store.",
-    "TypeScript and Node.js on AWS, serverless and event-driven by default. LLM applications with grounding, guardrails and evals that hold up in production. I design the cloud architecture, run what I ship, and treat the bill as an engineering input."
+    "TypeScript and Node.js on AWS, serverless and event-driven by default. LLM applications with grounding, guardrails and evals that hold up in production. I design the cloud architecture, run what I ship, and keep the cloud bill in check."
   ],
   "glance": [
     {
@@ -22,7 +22,7 @@ window.PORTFOLIO = {
     },
     {
       "k": "Location",
-      "v": "Pakistan (UTC+5). Remote-first for years with North American teams; overlaps US and EU working hours, flexible to the team's day"
+      "v": "Pakistan (UTC+5). Remote-first for years with North American teams; overlaps US and EU working hours. No visa needed to work remotely from Pakistan; relocation with sponsorship welcome"
     },
     {
       "k": "Open to",
@@ -407,7 +407,7 @@ window.PORTFOLIO = {
         "Built the wearable data platform on TimescaleDB: up to 15,000 samples per person per day from Apple Watch, Garmin, Oura, Fitbit and WHOOP, aggregated correctly across time zones, with storage cut by up to 90%. It shipped and carried real users' health data.",
         "Chose build over buy for the realtime data path after evaluating six options: hourly granularity and local raw data the vendor could not offer, and about $20,000 a year in vendor fees avoided.",
         "Connected medical records through a FHIR aggregator covering Epic, Cerner and Athenahealth networks, so a person's records and device data sit on one timeline.",
-        "Made the AI assistant safe to operate: spend capped per person and per service, every request attributable, limiters that fail open; right to erasure across four data stores."
+        "Made the AI assistant safe to operate: spend capped per person and per service, every request attributable, and a fault in the limiter can never take the product down; right to erasure across four data stores."
       ],
       "built": "Backend engineer across the Node/Express API and the React Native client; built the time-series platform and the wearable ingestion path.",
       "stack": [
@@ -1035,7 +1035,7 @@ window.PORTFOLIO = {
       "lines": [
         "Serverless and event-driven on AWS: Lambda, Step Functions, SQS, EventBridge, AppSync, CDK",
         "Infrastructure as code, CI/CD, release trains to staging and production",
-        "$40k+ a year in cloud and vendor spend cut or avoided, with receipts"
+        "$40k+ a year in cloud and vendor spend cut or avoided, measured on the bill"
       ]
     },
     {
